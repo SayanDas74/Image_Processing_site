@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+    <style>
+        .container {
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+        }
+
+        .resize-form {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            margin-bottom: 20px;
+        }
+
+        .resize-form input {
+            margin-bottom: 10px;
+        }
+
+        .resized-image {
+            max-width: 100%;
+            max-height: 80%;
+            margin-top: 20px;
+        }
+
+        .hidden {
+            display: none;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h1 class="{% if resized_filename %}hidden{% endif %}">Resize Image</h1>
+        <form method="post" action="{{ url_for('resize') }}" class="{% if resized_filename %}hidden{% endif %} resize-form">
+            <div class="row">
+                <div class="col">
+                    <input type="text" class="form-control" name="width" placeholder="Width" aria-label="Width">
+                </div>
+                <div class="col">
+                    <input type="text" class="form-control" name="height" placeholder="Height" aria-label="Height">
+                </div>
+            </div>
+            <button type="submit" class="btn btn-primary mt-3">Resize</button>
+        </form>
+
+        {% if resized_filename %}
+            <div class="{% if not resized_filename %}hidden{% endif %}">
+                <img src="{{ url_for('static', filename=resized_filename) }}" alt="Resized Image" class="resized-image">
+            </div>
+        {% endif %}
+    </div>
+</body>
+</html>
