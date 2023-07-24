@@ -9,10 +9,10 @@ ChromaCraft is a simple yet effective Image Processing Site built using Flask an
 _**Back-end: Python**_ \
 _**Front-end: HTML, CSS, JavaScript**_
 ## Features
-- **Upload Image:** ChromaCraft allows users to effortlessly upload images to perform editing that too in various formats, including webp, png, jpg, and jpeg.\
-- **Crop Image:** With the interactive cropping feature, users can easily select and extract specific regions of the uploaded image.\
-- **Resize Image:** Users have the flexibility to resize their images, maintaining the aspect ratio for consistent and balanced proportions.\
-- **Filters:** Offers a delightful array of filters to transform images into unique pieces of art. Users can choose from Black & White, Exposure, and Oil Painting filters.
+**Upload Image:** ChromaCraft allows users to effortlessly upload images to perform editing that too in various formats, including webp, png, jpg, and jpeg.\
+**Crop Image:** With the interactive cropping feature, users can easily select and extract specific regions of the uploaded image.\
+**Resize Image:** Users have the flexibility to resize their images, maintaining the aspect ratio for consistent and balanced proportions.\
+**Filters:** Offers a delightful array of filters to transform images into unique pieces of art. Users can choose from Black & White, Exposure, and Oil Painting filters.
 ## Libraries Used
 - **Flask**: A lightweight web framework used for building the web applications.
 
