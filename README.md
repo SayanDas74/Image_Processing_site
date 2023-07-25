@@ -13,7 +13,7 @@ _**Front-end: HTML, CSS, JavaScript**_
 **Crop Image:** With the interactive cropping feature, users can easily select and extract specific regions of the uploaded image.\
 **Resize Image:** Users have the flexibility to resize their images, maintaining the aspect ratio for consistent and balanced proportions.\
 **Filters:** Offers a delightful array of filters to transform images into unique pieces of art. Users can choose from Black & White, Exposure, and Oil Painting filters.
-## Libraries Used
+## Frameworks and Libraries Used
 - **Flask**: A lightweight web framework used for building the web applications.
 
 - **OpenCV**: Utilized for powerful image processing operations, including cropping, resizing, and applying artistic filters.
@@ -24,7 +24,7 @@ _**Front-end: HTML, CSS, JavaScript**_
 
 3. Execute the operation by clicking the corresponding button to process the uploaded image.
 
-4. The result of the corresponding operation will be displayed
+4. The result of the corresponding operation will be displayed.
 ## Endpoints
 ### Home
 ```python
@@ -156,4 +156,6 @@ def filter():
 
 2. Ensure that you provide a valid image in one of the allowed formats for processing.
 
-3. The uploaded images are temporarily stored in the "Uploads" folder, and the processed images are available in the "Static" folder
+3. The uploaded images are temporarily stored in the "Uploads" folder, and the processed images are available in the "Static" folder.
+
+4. Make sure to change the path in the code as per your local machine.
