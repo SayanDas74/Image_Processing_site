@@ -1,7 +1,7 @@
 
-# ChromaCraft - an Image Processing Site
+# ChromaCraft - an Image Processing Web Application
 
-ChromaCraft is an Image Processing site which applies simple image editing on an image.
+ChromaCraft is an Image Processing Flask Application which applies simple image editing on an image.
 
 
 ## About
