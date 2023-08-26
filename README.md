@@ -1,11 +1,11 @@
 
-# ChromaCraft - an Image Processing Web Application
+# ChromaCraft - an Image Editing Web Application
 
-ChromaCraft is an Image Processing Flask Application which applies simple image editing on an image.
+ChromaCraft is an Image Editing Flask Application which applies simple image editing on an image.
 
 
 ## About
-ChromaCraft is a simple yet effective Image Processing Site built using Flask and OpenCV. This web application empowers users to upload images and unleash their creativity through a range of image processing operations. From cropping and resizing to applying filters, ChromaCraft offers an enjoyable experience for manipulating images.\
+ChromaCraft is a simple yet effective Image Editing web app built using Flask and OpenCV. This web application empowers users to upload images and unleash their creativity through a range of image processing operations. From cropping and resizing to applying filters, ChromaCraft offers an enjoyable experience for manipulating images.\
 _**Back-end: Python**_ \
 _**Front-end: HTML, CSS, JavaScript**_
 ## Features
